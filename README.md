@@ -1,115 +1,78 @@
-<img src="./assets/LOGO.png" alt="BLUESCAN" width="600">
-🚀 BLUESCAN – Entry Scanner by IP
+# 🔷 BLUESCAN – Entry Scanner by IP
 
-O BLUESCAN é um aplicativo para comunicação entre coletores de código de barras e computadores via IP/TCP.
-Ele recebe códigos enviados por dispositivos como DWDEMO (Datalogic) e os insere automaticamente no sistema ativo, seja via colagem (CTRL+V) ou digitação simulada.
+BLUESCAN é um leitor avançado que recebe códigos de barras via IP e os insere automaticamente no seu computador, usando colagem (CTRL+V) ou digitação simulada.
+Perfeito para ERPs, planilhas, sistemas internos, aplicativos web e qualquer fluxo que precise receber códigos escaneados rapidamente.
 
-Fácil de usar, rápido e ideal para aumentar a produtividade em sistemas ERP, planilhas, aplicações web e automações diversas.
+**Escaneie no coletor → o código aparece instantaneamente no seu PC.**
 
-📌 Recursos Principais
-✔ Recebimento de códigos via IP
+<img src="assets/LOGO.png" width="880">
+### 🚀 Como funciona?
 
-O BLUESCAN opera como servidor local, recebendo em tempo real os códigos transmitidos pelo coletor.
+O coletor (ex: DWDEMO/Datalogic) envia o código via IP Output.
 
-✔ Modos de entrada altamente eficientes
+O BLUESCAN recebe o dado pelo servidor interno.
 
-🔹 Paste (CTRL+V) – cola automaticamente o código
-🔹 PyType (digitação simulada via pyautogui) – digita caractere por caractere
+O código é automaticamente colado ou digitado no programa ativo do seu computador.
 
-✔ Enter Automático
+(Opcional) Um ENTER é enviado logo após.
 
-Opcionalmente envia a tecla ENTER após cada código processado.
+Simples, rápido e sem configurações complicadas.
 
-✔ Log detalhado
+### ✅ Recursos
 
-Exibe cada entrada recebida na tela, facilitando auditoria e testes.
+- Recebimento de códigos via IP/TCP
+- Modo Paste (CTRL+V) – rápido e eficiente
+- Modo PyType – digitação simulada caractere por caractere
+- ENTER Automático opcional
+- Log completo das leituras recebidas
+- Configuração de porta personalizada
+- Detecção automática do IPv4 para configurar no coletor
+- Compatível com DWDEMO e coletores que enviam via IP
+- Interface moderna e objetiva
+- Leve, sem anúncios e 100% offline
 
-✔ Configuração de porta TCP
+### 💡 Ideal para:
 
-Você pode alterar a porta de escuta do servidor rapidamente.
+- Sistemas ERP
+- Planilhas (Excel, Google Sheets)
+- Aplicações web
+- Automação de estoque
+- Logística
+- Ambientes industriais e varejo
 
-✔ Detecção automática do IPv4
+### 📦 Como usar
+1. Inicie o BLUESCAN
 
-Mostra o endereço correto que deve ser configurado no coletor.
+Abra o programa e clique em `INICIAR`
 
-✔ Guia integrado
+2. Configure o coletor
 
-A aba “Guia” inclui instruções para configurar o DWDEMO.
+No DWDEMO:
 
-🖥️ Como Usar o BLUESCAN
-1️⃣ Abra o programa
+`Configurações → IP OUTPUT → Address`
 
-Execute o BLUESCAN normalmente.
-
-2️⃣ Configure o coletor (DWDEMO ou similar)
-
-No aplicativo do coletor:
-
-Configurações → IP OUTPUT → Address
-
-
-Defina o IPv4 exibido na aba Guia do BLUESCAN.
+Defina o IPv4 exibido no BLUESCAN.
 Porta padrão: 65432
 
-Modo recomendado: 2D Scan
+3. Escolha o modo de entrada
 
-3️⃣ Inicie o servidor
+Paste (CTRL+V)
 
-Na aba Leitor, clique em:
+PyType (digitação simulada) + delay opcional
 
-🔵 INICIAR
+4. Escaneie
 
-O BLUESCAN começará a aceitar conexões.
+O código será enviado para a janela ativa automaticamente.
 
-4️⃣ Ative a automação (opcional)
+### 🧪 Exemplo de uso
 
-Marcando:
+- Abra seu ERP
+- Posicione o cursor onde deseja inserir o código
+- Escaneie com o coletor
+- O BLUESCAN insere instantaneamente na tela
 
-Colagem / Entrada Automática
+### 📞 Suporte
 
-Enter Automático
-
-E escolha o modo:
-
-📌 Configurações → Modo de Entrada (Paste ou PyType)
-
-5️⃣ Escaneie e pronto!
-
-Tudo que você escanear aparecerá instantaneamente no programa que estiver ativo no seu computador.
-
-⚙️ Modos de Entrada Explicados
-🔹 Paste (CTRL+V)
-
-O código é copiado para a área de transferência e colado automaticamente
-
-Extremamente rápido
-
-Ideal para ERP, navegadores e apps normais
-
-🔹 PyType (digitação simulada)
-
-O BLUESCAN digita caractere por caractere
-
-Perfeito para sistemas que bloqueiam colagem
-
-Delay configurável (0–200ms)
-
-📡 Como o BLUESCAN Funciona Internamente
-
-Abre um servidor TCP no IP/porta escolhidos
-
-Recebe os dados enviados pelo coletor
-
-Os processa automaticamente
-
-Simula colagem ou digitação
-
-Pode enviar o ENTER se habilitado
-
-Registra tudo no log
-
-📞 Contato / Suporte
-
-Na aba Sobre, há um botão direto para suporte via WhatsApp:
+Se precisar de ajuda, fale comigo direto pelo WhatsApp:
 
 📱 (22) 97404-0083
