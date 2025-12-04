@@ -5,8 +5,8 @@ Perfeito para ERPs, planilhas, sistemas internos, aplicativos web e qualquer flu
 
 **Escaneie no coletor → o código aparece instantaneamente no seu PC.**
 
---
 
+---
 <img src="assets/LOGO.png" width="880">
 
 ### 🚀 Como funciona?
