@@ -1,11 +1,14 @@
-# 🔷 BLUESCAN – Entry Scanner by IP
+## 🔷 BLUESCAN – Entry Scanner by IP
 
 BLUESCAN é um leitor avançado que recebe códigos de barras via IP e os insere automaticamente no seu computador, usando colagem (CTRL+V) ou digitação simulada.
 Perfeito para ERPs, planilhas, sistemas internos, aplicativos web e qualquer fluxo que precise receber códigos escaneados rapidamente.
 
 **Escaneie no coletor → o código aparece instantaneamente no seu PC.**
 
+--
+
 <img src="assets/LOGO.png" width="880">
+
 ### 🚀 Como funciona?
 
 O coletor (ex: DWDEMO/Datalogic) envia o código via IP Output.
